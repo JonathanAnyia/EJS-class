@@ -7,8 +7,8 @@ const home = (req, res) =>{
 
 const about = (req, res)=>{
     const values = {
-        first_name : "David",
-        surname: "Dangtim",
+        first_name : "Jonathan",
+        surname: "Anyia",
         country: "Nigeria",
         city: "Jos, Plateau State",
         dob : "21st Januly",
