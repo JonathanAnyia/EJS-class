@@ -1,0 +1,56 @@
+const home = (req, res) =>{
+    
+    
+    res.render("./portfolio/index")
+
+}
+
+const about = (req, res)=>{
+    const values = {
+        first_name : "David",
+        surname: "Dangtim",
+        country: "Nigeria",
+        city: "Jos, Plateau State",
+        dob : "21st Januly",
+    }
+    res.render("./portfolio/about",{values})
+}
+
+const portfolio = (req,res) => {
+    res.render("./portfolio/portfolio")
+}
+
+const portfoliodetails = (req,res) => {
+    res.render("./portfolio/portfoliodetails")
+}
+
+const services = (req,res) => {
+    res.render("./portfolio/services")
+}
+
+const servicesdetails = (req,res) => {
+    res.render("./portfolio/servicesdetails")
+}
+
+const bloglist = (req,res) => {
+    res.render("./portfolio/bloglist")
+}
+
+const bloggrid = (req,res) => {
+    res.render("./portfolio/bloggrid")
+}
+
+const blogdetails = (req,res) => {
+    res.render("./portfolio/blogdetails")
+}
+
+const contactus = (req,res) => {
+    res.render("./portfolio/contactus")
+}
+
+
+
+
+
+
+export {home, about, services,servicesdetails,portfolio, portfoliodetails, bloglist, blogdetails, bloggrid,contactus};
